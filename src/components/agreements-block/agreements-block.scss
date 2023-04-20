@@ -1,0 +1,68 @@
+.billing-block__agreements{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.billing-block__consent {
+    position: relative;
+	height: 22px;
+    margin: auto 0;
+
+    input {
+        -webkit-appearance: none;
+        appearance: none;
+        position: absolute;
+    }
+
+    label {
+        padding-left: 25px;
+		font-family: 'Inter', sans-serif;;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 23px;
+		color: #8C8C8C;
+        cursor: pointer;
+
+		a{
+			color: #000;
+			text-decoration: none;
+		}
+    }
+
+    label:before {
+        content: "";
+        display: block;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #CFCFCF;
+        background-color: #fff;
+        position: absolute;
+        top: 2px;
+        left: 0;
+        z-index: 1;
+        transition: background-color 0.1s linear, border .1s linear;
+    }
+
+    label:after {
+        content: "";
+        display: block;
+        width: 8px;
+        height: 8px;
+        background-color: #3366FF;
+        opacity: 0;
+        position: absolute;
+        top: 7px;
+        left: 5px;
+        z-index: 2;
+        transition: opacity .1s linear;
+    }
+
+    input:checked + label:before {
+        border-color: #CFCFCF;
+    }
+
+    input:checked + label:after {
+        opacity: 1;
+    }
+}

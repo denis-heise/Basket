@@ -1,0 +1,12 @@
+.basket-block__price {
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	gap: 15px;
+
+	>div, h3{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}

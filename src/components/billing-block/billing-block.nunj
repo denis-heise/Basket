@@ -1,0 +1,9 @@
+<div class="billing-block">
+	{% include '../billing-stage/billing-stage.nunj' %}
+
+	<div class="billing-block__form-payment">
+		<h3>Billing Information</h3>
+
+		{% include '../form-billing/form-billing.nunj' %}
+	</div>
+</div>

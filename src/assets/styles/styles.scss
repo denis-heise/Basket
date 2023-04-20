@@ -1,0 +1,25 @@
+// ======= GLOBAL =======
+@import 'constants';
+@import 'lib/base';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+@import 'layout';
+@import 'controls';
+
+// ======= COMPONENTS =======
+// @import '../../components/button/button';
+@import '../../components/agreements-block/agreements-block';
+@import '../../components/basket-block/basket-block';
+@import '../../components/billing-block/billing-block';
+@import '../../components/billing-stage/billing-stage';
+@import '../../components/form-billing/form-billing';
+@import '../../components/price-block/price-block';
+@import '../../components/promo-code/promo-code';
+
+// ======= INCLUDES =======
+@import '../../includes/header/header';
+
+// ======= PAGES =======
+// @import 'pages/main';
+@import 'pages/basket';

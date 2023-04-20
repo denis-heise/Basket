@@ -1,0 +1,7 @@
+<div class="basket-block__promo-code">
+	<h3>Promo code</h3>
+	<form>
+		<input type="text" placeholder="Placeholder Text">
+		<button type="submit">Apply</button>
+	</form>
+</div>

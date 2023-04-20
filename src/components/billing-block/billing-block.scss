@@ -1,0 +1,37 @@
+.billing-block {
+	width: 75%;
+	padding: 60px;
+
+	hr{
+		color: #3366FF;
+	}
+	form{
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+}
+.billing-block__form-payment{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	width: 100%;
+	max-width: 630px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+@media(max-width: 768px){
+	.billing-block{
+		width: auto;
+	}
+}
+@media(max-width: 414px){
+	.billing-block{
+		padding: 60px 10px;
+
+		form{
+			gap: 0;
+		}
+	}
+}

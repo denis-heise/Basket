@@ -1,0 +1,18 @@
+<div class="basket-block__price">
+	<div>
+		<span>Subtotal</span>
+		<span class="basket-block__price-subtotal">$ 1050</span>
+	</div>
+	<div>
+		<span>Tax</span>
+		<span class="basket-block__tax">$ 100</span>
+	</div>
+	<div>
+		<span>Shipping</span>
+		<span class="basket-block__price-sipping">$ 150</span>
+	</div>
+	<h3>
+		<span>Total</span>
+		<span class="basket-block__price-total">$ 1300</span>
+	</h3>
+</div>

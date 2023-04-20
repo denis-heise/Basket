@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+}
+main{
+	display: flex;
+	flex-direction: row;
+}
+h3{
+	font-family: 'Inter', sans-serif;;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000;
+	margin: 0;
+}
+
+@media(max-width: 768px){
+	main{
+		display: block;
+	}
+}

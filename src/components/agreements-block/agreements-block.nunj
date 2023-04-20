@@ -1,0 +1,11 @@
+<div class="billing-block__agreements">
+	<div class="billing-block__consent">
+		<input id="save_information" type="checkbox">
+		<label for="save_information">Save information of this credit card</label>
+	</div>
+
+	<div class="billing-block__consent">
+		<input id="accept" type="checkbox">
+		<label for="accept">I accept the <a href="#">terms and comditions</a> and the <a href="#">Privacy Policies</a></label>
+	</div>
+</div>

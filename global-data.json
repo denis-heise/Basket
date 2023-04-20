@@ -1,0 +1,40 @@
+{
+	"menuItems": [
+		{
+			"name": "Menu Item 1",
+			"path": "#"
+		},
+		{
+			"name": "Menu Item 2",
+			"path": "#"
+		},
+		{
+			"name": "Menu Item 3",
+			"path": "#"
+		}
+	],
+	"someData": [
+		{
+			"title": "Item 1",
+			"text": "Desc 1"
+		},
+		{
+			"title": "Item 2",
+			"text": "Desc 2"
+		}
+	],
+	"productsData": [
+		{
+			"title": "Amet minim mollit non deserunt ullamco est sit",
+			"alt": "jacket",
+			"price": "525",
+			"image": "../../assets/images/jacket.png"
+		},
+		{
+			"title": "Amet minim mollit non",
+			"alt": "boots",
+			"price": "525",
+			"image": "../../assets/images/boots.png"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+<div class="billing-block__stage">
+	<div class="billing-block__one-stage">
+		<div class="billing-block__done-stage">1</div>
+		<div class="billing-block__title-stage">Account</div>
+	</div>
+	<div class="billing-block__one-stage">
+		<div class="billing-block__done-stage">2</div>
+		<div class="billing-block__title-stage">Shipping</div>
+	</div>
+	<div class="billing-block__one-stage">
+		<div class="billing-block__current-stage">3</div>
+		<div class="billing-block__title-stage">Billing</div>
+	</div>
+	<div class="billing-block__one-stage">
+		<div class="billing-block__no-done-stage">4</div>
+		<div class="billing-block__title-stage">Review</div>
+	</div>
+	<span class="billing-block__done-line"></span>
+	<span class="billing-block__no-done-line"></span>
+</div>
